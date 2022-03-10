@@ -1,0 +1,50 @@
+.footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+  background-color: rgb(32, 32, 119);
+}
+.footer-section {
+  text-align: start;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(32, 32, 119);
+  margin-top: 40px;
+  padding: 50px;
+  padding-bottom: 40px;
+}
+.footer-section-1 input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.footer-section button {
+  background-color: rgb(238, 110, 63);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+.footer-section-1 p {
+  color: white;
+  text-align: start;
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+}
+.footer-section-1 img {
+  width: 150px;
+  color: red;
+}
+.footer-section-2 {
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}

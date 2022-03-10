@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Red Nail Polish",
+    "desc": "Johnson's Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxUb8sKyzFqABb3f6fFRN-HSZLazk53iZKw&usqp=CAU",
+    "price": "140",
+    "weight": "130"
+  },
+  {
+    "name": "Black Nail Polish",
+    "desc": " Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiex8ZPKYwQNXUopCAaXoAtGccUEQHr6mpQ&usqp=CAU",
+    "price": "100",
+    "weight": "120"
+  },
+  {
+    "name": "Marron Nail Polish",
+    "desc": "Baby Dove Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://thumbs.dreamstime.com/z/female-hand-long-nails-holds-bottle-bordo-nail-polish-140853361.jpg",
+    "price": "120",
+    "weight": "120"
+  },
+  {
+    "name": "Glitter Nail Polish",
+    "desc": "SheaMoisture Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9E0ISc9TnaXW2xcI_fKMIvFOWYjIDFslt0Q&usqp=CAU",
+    "price": "100",
+    "weight": "80"
+  },
+  {
+    "name": "Lavender Nail Polish",
+    "desc": "BabyganicsMoisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzYhh8g3NsgqE-JGz028RSgB5lGG9eurqjjg&usqp=CAU",
+    "price": "90",
+    "weight": "70"
+  },
+  {
+    "name": "Dark Red Nail Polish",
+    "desc": "Aquaphor Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4IFsIlQVj5VBgjnrwCUvSUJQ_EOcnzmgAg&usqp=CAU",
+    "price": "190",
+    "weight": "90"
+  },
+  {
+    "name": "Node Nail Polish",
+    "desc": "Boudreaux's Butt Paste Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiyNzreXR7QMHeAF345MqXmQf6DGDwuebXA&usqp=CAU",
+    "price": "900",
+    "weight": "200"
+  },
+  {
+    "name": "Chocolate Glitter Nail Polish",
+    "desc": "Johnson & Johnson Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeitsJI_0L2OkhykoRYa5g9NDpp7brNrMzFQ&usqp=CAU",
+    "price": "120",
+    "weight": "120"
+  },
+  {
+    "name": "Vaseline lotion",
+    "desc": "VaselineMoisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://i.ibb.co/t8FnFYL/6.jpg",
+    "price": "180",
+    "weight": "60"
+  },
+  {
+    "name": "Pipette lotion",
+    "desc": "Pipette Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://i.ibb.co/7Vwwk1N/7.jpg",
+    "price": "190",
+    "weight": "400"
+  }
+]

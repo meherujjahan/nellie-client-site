@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Red Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxUb8sKyzFqABb3f6fFRN-HSZLazk53iZKw&usqp=CAU",
+    "price": "140",
+    "weight": "80"
+  },
+  {
+    "name": "Black Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiex8ZPKYwQNXUopCAaXoAtGccUEQHr6mpQ&usqp=CAU",
+    "price": "100",
+    "weight": "120"
+  },
+  {
+    "name": "Marron Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://thumbs.dreamstime.com/z/female-hand-long-nails-holds-bottle-bordo-nail-polish-140853361.jpg",
+    "price": "120",
+    "weight": "120"
+  },
+  {
+    "name": "Glitter Nail Polish",
+    "desc": "SheaMoisture Moisturizing Pink Baby Lotion with Coconut Oil, Gentle, Nourishing & Hydrating Baby Body Lotion, Hypoallergenic, Paraben-Free, Sulfate-Free, Dye-Free, Phthalate-Free, 27.1 fl. oz",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9E0ISc9TnaXW2xcI_fKMIvFOWYjIDFslt0Q&usqp=CAU",
+    "price": "100",
+    "weight": "80"
+  },
+  {
+    "name": "Lavender Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzYhh8g3NsgqE-JGz028RSgB5lGG9eurqjjg&usqp=CAU",
+    "price": "90",
+    "weight": "70"
+  },
+  {
+    "name": "Dark Red Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4IFsIlQVj5VBgjnrwCUvSUJQ_EOcnzmgAg&usqp=CAU",
+    "price": "190",
+    "weight": "90"
+  },
+  {
+    "name": "Node Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiyNzreXR7QMHeAF345MqXmQf6DGDwuebXA&usqp=CAU",
+    "price": "900",
+    "weight": "100"
+  },
+  {
+    "name": "Chocolate Glitter Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeitsJI_0L2OkhykoRYa5g9NDpp7brNrMzFQ&usqp=CAU",
+    "price": "120",
+    "weight": "120"
+  },
+  {
+    "name": "Blue Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyYOegxllrrqnOk19ekdWf4YjP-jSgdyvvA&usqp=CAU",
+    "price": "180",
+    "weight": "60"
+  },
+  {
+    "name": "Periwinkle Blue Nail Polish",
+    "desc": "The nail polishes are all vegan and cruelty-free. The brand has gained popularity for its multichromatic, holographic, and metallic colors.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1JI9gbKxhtje-Ww0oTO3xaLa37b5mw-JRg&usqp=CAU",
+    "price": "190",
+    "weight": "40"
+  }
+]

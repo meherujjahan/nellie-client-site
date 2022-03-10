@@ -1,0 +1,16 @@
+.Banner {
+  background: url("https://cdn.shopify.com/s/files/1/0462/3361/6544/files/slider-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.btn {
+  background-color: rgb(238, 156, 80);
+  padding: 5px;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
