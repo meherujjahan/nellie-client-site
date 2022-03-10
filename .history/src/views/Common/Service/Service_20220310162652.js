@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -5,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Service = ({service}) => {
@@ -33,9 +35,9 @@ const Service = ({service}) => {
                             {weight}ml
                         </Typography>
                     </Box>
-                    {/* <Link to={`/services/${_id}`} style={{ textDecoration: "none" }}>
+                    <Link to={`/services/${_id}`} style={{ textDecoration: "none" }}>
                         <Button variant="contained" style={{ backgroundColor: '#b0de45', color: '#4792de' }}>Purchase</Button>
-                    </Link> */}
+                    </Link>
 
                 </CardContent>
             </Card>

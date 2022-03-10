@@ -14,12 +14,12 @@ const Service = ({service}) => {
             <Card sx={{ minWidth: 275 }}>
                 <CardMedia
                     component="img"
-                    style={{ width: '200px', height: '200px', margin: '0 auto',borderRadius: '5px'}}
+                    style={{ width: '200px', height: '200px', margin: '0 auto' }}
                     image={img}
                     alt="green iguana"
                 />
                 <CardContent>
-                    <Typography variant="h5" component="div" sx={{ my: 2 }} style={{ color: 'black', fontWeight: 600 }}>
+                    <Typography variant="h5" component="div" sx={{ my: 2 }} style={{ color: '#b0de45', fontWeight: 600 }}>
                         {name}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ my: 2 }}>

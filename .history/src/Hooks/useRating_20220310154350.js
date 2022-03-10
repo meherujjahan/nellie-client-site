@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react';
 
 const useRating = () => {
-    const [rating, setRating] = useState([]);
+    const [rates, setRates] = useState([]);
     useEffect(()=>{
         fetch('http://localhost:5000/rating')
         .then(res=>res.json())
-        .then(data=> setRating(data))
+        .then(data=> setRates(data))
     },[])
     return (
         {
-            rating,
-            setRating
+            rates,
+            setRates
         }
     );
 };

@@ -5,7 +5,7 @@ const useRating = () => {
     useEffect(()=>{
         fetch('http://localhost:5000/rating')
         .then(res=>res.json())
-        .then(data=> setRating(data))
+        .then(data=> setRates(data))
     },[])
     return (
         {
