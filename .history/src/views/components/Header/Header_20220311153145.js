@@ -4,13 +4,12 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import React from 'react';
-import useFirebase from '../../../Hooks/useFirebase';
-// import useAuth from '../../../Hooks/useAuth';
+import useAuth from '../../../Hooks/useAuth';
 import logo1 from '../../../Images/footer-logo_bc8a733f-f892-4297-b39d-668aea97a225_400x@2x.webp';
 import './Header.css';
 
 const Header = () => {
-  const {user, logOut} = useFirebase();
+  const {user, logOut} = useAuth()
     return (
         <Box  sx={{ flexGrow: 1, backgroundColor:"white" }}>
       <AppBar style={{backgroundColor:"white"}} position="static">

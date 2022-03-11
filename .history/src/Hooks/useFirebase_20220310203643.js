@@ -4,7 +4,7 @@ import firebaseAuthentication from "../views/Login/firebase.init";
 
 firebaseAuthentication();
 const useFirebase = () => {
-    const [user, setUser] =useState({})
+    const [user, setUser] =useState()
     const [isLoading, setIsloading] = useState(true)
     const [authError, setAuthError] = useState('')
     const [admin, setAdmin] = useState(false)
@@ -18,7 +18,7 @@ const useFirebase = () => {
                 setAuthError('')
                 const newUser = { email, displayName: name, photoURL: photoURL }
                 setUser(newUser)
-                saveUser(email, name, photoURL);
+                // saveUser(email, name, photoURL);
 
 
                 updateProfile(auth.currentUser, {
@@ -49,16 +49,16 @@ const useFirebase = () => {
         })
             .finally(() => setIsloading(false));
     }
-    const saveUser = (email, displayName) => {
-        const user = { email, displayName };
-        fetch('http://localhost:5000/users', {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json'
-            },
-            body: JSON.stringify(user)
-        })
-    }
+    // const saveUser = (email, displayName) => {
+    //     const user = { email, displayName };
+    //     fetch('https://guarded-refuge-97562.herokuapp.com/users', {
+    //         method: 'POST',
+    //         headers: {
+    //             'content-type': 'application/json'
+    //         },
+    //         body: JSON.stringify(user)
+    //     })
+    // }
 
 
 
@@ -100,6 +100,10 @@ const useFirebase = () => {
                 setAdmin(data.admin)
             })
     }, [user.email])
+
+
+
+
 
     return (
        {

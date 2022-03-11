@@ -4,10 +4,10 @@ import firebaseAuthentication from "../views/Login/firebase.init";
 
 firebaseAuthentication();
 const useFirebase = () => {
-    const [user, setUser] =useState({})
+    const [user, setUser] =useState()
     const [isLoading, setIsloading] = useState(true)
     const [authError, setAuthError] = useState('')
-    const [admin, setAdmin] = useState(false)
+    //const [admin, setAdmin] = useState(false)
     const [photoURL, setPhotoUrl] = useState('')
     const auth = getAuth();
     const registerUser = (email, password, history, name) => {
@@ -18,7 +18,7 @@ const useFirebase = () => {
                 setAuthError('')
                 const newUser = { email, displayName: name, photoURL: photoURL }
                 setUser(newUser)
-                saveUser(email, name, photoURL);
+                // saveUser(email, name, photoURL);
 
 
                 updateProfile(auth.currentUser, {
@@ -93,17 +93,21 @@ const useFirebase = () => {
     }, [auth])
 
 
-    useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
-            .then(res => res.json())
-            .then(data => {
-                setAdmin(data.admin)
-            })
-    }, [user.email])
+    // useEffect(() => {
+    //     fetch(`http://localhost:5000/users/${user.email}`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setAdmin(data.admin)
+    //         })
+    // }, [user.email])
+
+
+
+
 
     return (
        {
-        admin,
+        // admin,
         authError,
         user,
         registerUser,

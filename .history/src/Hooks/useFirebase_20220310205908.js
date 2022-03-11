@@ -4,7 +4,7 @@ import firebaseAuthentication from "../views/Login/firebase.init";
 
 firebaseAuthentication();
 const useFirebase = () => {
-    const [user, setUser] =useState({})
+    const [user, setUser] =useState()
     const [isLoading, setIsloading] = useState(true)
     const [authError, setAuthError] = useState('')
     const [admin, setAdmin] = useState(false)
@@ -100,6 +100,10 @@ const useFirebase = () => {
                 setAdmin(data.admin)
             })
     }, [user.email])
+
+
+
+
 
     return (
        {

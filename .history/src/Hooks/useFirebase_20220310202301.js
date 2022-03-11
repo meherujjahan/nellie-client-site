@@ -4,12 +4,13 @@ import firebaseAuthentication from "../views/Login/firebase.init";
 
 firebaseAuthentication();
 const useFirebase = () => {
-    const [user, setUser] =useState({})
+    const [user, setUser] =useState()
+    const auth = getAuth();
     const [isLoading, setIsloading] = useState(true)
     const [authError, setAuthError] = useState('')
     const [admin, setAdmin] = useState(false)
     const [photoURL, setPhotoUrl] = useState('')
-    const auth = getAuth();
+
     const registerUser = (email, password, history, name) => {
 
         setIsloading(true)
@@ -49,16 +50,16 @@ const useFirebase = () => {
         })
             .finally(() => setIsloading(false));
     }
-    const saveUser = (email, displayName) => {
-        const user = { email, displayName };
-        fetch('http://localhost:5000/users', {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json'
-            },
-            body: JSON.stringify(user)
-        })
-    }
+    // const saveUser = (email, displayName) => {
+    //     const user = { email, displayName };
+    //     fetch('https://guarded-refuge-97562.herokuapp.com/users', {
+    //         method: 'POST',
+    //         headers: {
+    //             'content-type': 'application/json'
+    //         },
+    //         body: JSON.stringify(user)
+    //     })
+    // }
 
 
 
@@ -93,13 +94,17 @@ const useFirebase = () => {
     }, [auth])
 
 
-    useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
-            .then(res => res.json())
-            .then(data => {
-                setAdmin(data.admin)
-            })
-    }, [user.email])
+    // useEffect(() => {
+    //     fetch(`https://guarded-refuge-97562.herokuapp.com/users/${user.email}`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setAdmin(data.admin)
+    //         })
+    // }, [user.email])
+
+
+
+
 
     return (
        {

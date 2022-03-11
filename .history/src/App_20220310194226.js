@@ -1,26 +1,18 @@
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './Context/AuthProvider';
-import Rates from './views/Common/Rates/Rates';
 import Services from './views/Common/Services/Services';
-import Banner from './views/components/Banner/Banner';
 import Footer from './views/components/Footer/Footer';
 import Header from './views/components/Header/Header';
+import Home from './views/components/Home/Home';
 
 function App() {
   return (
     <div className='App'>
-<AuthProvider>
-<Header></Header>
-<Banner></Banner>
-      <Services></Services>
-      <Rates></Rates>
-      <Footer></Footer>
-</AuthProvider>
-     
-      {/* <AuthProvider>
+      <AuthProvider>
       <BrowserRouter>
       <Switch>
-      
+      <Header/>
       <Route path='/home'>
         <Home/>
       </Route>
@@ -28,9 +20,9 @@ function App() {
         <Services/>
         </Route>
       </Switch>
-     
+      <Footer/>
       </BrowserRouter>
-      </AuthProvider> */}
+      </AuthProvider>
     
 
     </div>
