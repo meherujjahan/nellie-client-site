@@ -12,6 +12,7 @@ function App() {
      
       <AuthProvider>
       <BrowserRouter>
+
       <Switch>
       <Route exact path='/'>
         <Home/>
@@ -19,6 +20,7 @@ function App() {
       <Route path='/home'>
         <Home/>
       </Route>
+     
         <Route path="/Services">
         <Services/>
         </Route>

@@ -1,7 +1,6 @@
-import React from 'react';
 import Rates from '../../Common/Rates/Rates';
+import Services from '../../Common/Services/Services';
 import Banner from '../Banner/Banner';
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const Home = () => {
@@ -9,8 +8,9 @@ const Home = () => {
         <div>
             <Header/>
             <Banner/>
+            <Services/>
             <Rates/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 };

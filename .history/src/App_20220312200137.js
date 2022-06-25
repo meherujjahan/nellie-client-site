@@ -8,14 +8,18 @@ import Home from './views/components/Home/Home';
 function App() {
   return (
     <div className='App'>
-
+{/* <AuthProvider>
+<Header></Header>
+<Banner></Banner>
+      <Services></Services>
+      <Rates></Rates>
+      <Footer></Footer>
+</AuthProvider> */}
      
       <AuthProvider>
       <BrowserRouter>
       <Switch>
-      <Route exact path='/'>
-        <Home/>
-      </Route>
+      
       <Route path='/home'>
         <Home/>
       </Route>
